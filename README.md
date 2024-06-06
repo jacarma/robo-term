@@ -45,7 +45,7 @@ The `roboTerm` factory accepts an options object to configure the shell session.
 
 - `shellCwd` (string): The initial working directory. Defaults to the current working directory.
 - `shellEnv` (object): The environment variables to use for the shell session. Defaults to the current environment variables.
-- `commandTimeout` (number): The timeout for each command in milliseconds. Defaults to 60000 (60 seconds).
+- `timeout` (number): The timeout for each command in milliseconds. Defaults to 60000 (60 seconds).
 - `maxOutputSize` (number): The maximum output size in bytes. Defaults to 1024 \* 100 (100 KB).
 
 ### Methods
