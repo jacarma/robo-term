@@ -17,9 +17,9 @@ npm install robo-term
 First, import the `RoboTerm` class and create a new instance. You can then use the `runCommand` method to run shell commands.
 
 ```typescript
-import RoboTerm from "robo-term";
+import roboTerm from "robo-term";
 
-const session = new RoboTerm();
+const session = roboTerm();
 
 const runCommands = async () => {
   try {
