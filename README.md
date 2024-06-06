@@ -41,7 +41,7 @@ runCommands();
 
 ### Configuration
 
-The `RoboTerm` constructor accepts an options object to configure the shell session. Here are the available options:
+The `roboTerm` factory accepts an options object to configure the shell session. Here are the available options:
 
 - `shellCwd` (string): The initial working directory. Defaults to the current working directory.
 - `shellEnv` (object): The environment variables to use for the shell session. Defaults to the current environment variables.
