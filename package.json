@@ -1,6 +1,6 @@
 {
   "name": "robo-term",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Node.js shell session manager",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
